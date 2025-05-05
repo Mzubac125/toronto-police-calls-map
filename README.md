@@ -8,6 +8,7 @@ This project creates an automated pipeline to collect, transform, and store Toro
 1. **Data Collection**: Scrapes TPS calls from gtaupdates.com
 2. **Data Transformation**:
    - Extracts time, division, event type, street, and intersection
+   - Splits the raw event column into multiple fields
    - Filters for the last hour of data
    - Standardizes division format (e.g., "D51")
 3. **Data Storage**: Loads transformed data into Snowflake
