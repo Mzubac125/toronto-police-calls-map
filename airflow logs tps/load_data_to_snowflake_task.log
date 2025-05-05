@@ -1,0 +1,44 @@
+b9638cd8693a
+ INFO - ::group::Log message source details
+*** Found local files:
+***   * /usr/local/airflow/logs/dag_id=hourly_tps_calls_dag/run_id=manual__2025-05-05T17:05:06.217252+00:00/task_id=get_tps_calls/attempt=1.log
+ INFO - ::endgroup::
+[2025-05-05T17:05:08.450+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-05T17:05:08.462+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hourly_tps_calls_dag.get_tps_calls manual__2025-05-05T17:05:06.217252+00:00 [queued]>
+[2025-05-05T17:05:08.470+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hourly_tps_calls_dag.get_tps_calls manual__2025-05-05T17:05:06.217252+00:00 [queued]>
+[2025-05-05T17:05:08.471+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-05T17:05:08.483+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): get_tps_calls> on 2025-05-05 17:05:06.217252+00:00
+[2025-05-05T17:05:08.496+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2118) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-05T17:05:08.496+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'hourly_tps_calls_dag', 'get_tps_calls', 'manual__2025-05-05T17:05:06.217252+00:00', '--job-id', '251', '--raw', '--subdir', 'DAGS_FOLDER/TPScallsDag.py', '--cfg-path', '/tmp/tmpawwavi3n']
+[2025-05-05T17:05:08.497+0000] {standard_task_runner.py:72} INFO - Started process 2119 to run task
+[2025-05-05T17:05:08.498+0000] {standard_task_runner.py:105} INFO - Job 251: Subtask get_tps_calls
+[2025-05-05T17:05:08.539+0000] {task_command.py:467} INFO - Running <TaskInstance: hourly_tps_calls_dag.get_tps_calls manual__2025-05-05T17:05:06.217252+00:00 [running]> on host b9638cd8693a
+[2025-05-05T17:05:08.617+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hourly_tps_calls_dag' AIRFLOW_CTX_TASK_ID='get_tps_calls' AIRFLOW_CTX_EXECUTION_DATE='2025-05-05T17:05:06.217252+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-05T17:05:06.217252+00:00'
+[2025-05-05T17:05:08.619+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-05T17:05:09.115+0000] {TPScallsDag.py:102} INFO - Current time in Toronto: 2025-05-05 13:05:09.114780-04:00
+[2025-05-05T17:05:09.115+0000] {TPScallsDag.py:106} INFO - One hour ago in Toronto: 2025-05-05 12:05:09.114780-04:00
+[2025-05-05T17:05:09.115+0000] {TPScallsDag.py:110} INFO - Today's date in Toronto: 2025-05-05
+[2025-05-05T17:05:09.129+0000] {TPScallsDag.py:118} INFO - Sample times from data: 4    12:36 pm
+5    12:36 pm
+6    12:36 pm
+7    12:36 pm
+8    12:36 pm
+Name: Time, dtype: object
+[2025-05-05T17:05:09.130+0000] {TPScallsDag.py:119} INFO - Sample converted datetimes: 4   2025-05-05 12:36:00-04:00
+5   2025-05-05 12:36:00-04:00
+6   2025-05-05 12:36:00-04:00
+7   2025-05-05 12:36:00-04:00
+8   2025-05-05 12:36:00-04:00
+Name: datetime, dtype: datetime64[ns, America/Toronto]
+[2025-05-05T17:05:09.132+0000] {TPScallsDag.py:126} INFO - Earliest time in filtered data: 2025-05-05 12:36:00-04:00
+[2025-05-05T17:05:09.133+0000] {TPScallsDag.py:127} INFO - Latest time in filtered data: 2025-05-05 12:36:00-04:00
+[2025-05-05T17:05:09.134+0000] {TPScallsDag.py:159} INFO - Total rows scraped: 180
+[2025-05-05T17:05:09.134+0000] {TPScallsDag.py:160} INFO - Rows after filtering: 14
+[2025-05-05T17:05:09.140+0000] {TPScallsDag.py:165} INFO - Saved 14 rows to /tmp/tpscalls.csv
+[2025-05-05T17:05:09.140+0000] {TPScallsDag.py:170} INFO - CSV file size: 1139 bytes
+[2025-05-05T17:05:09.141+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-05T17:05:09.149+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-05T17:05:09.149+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=hourly_tps_calls_dag, task_id=get_tps_calls, run_id=manual__2025-05-05T17:05:06.217252+00:00, execution_date=20250505T170506, start_date=20250505T170508, end_date=20250505T170509
+[2025-05-05T17:05:09.191+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-05T17:05:09.217+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-05T17:05:09.217+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
