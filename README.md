@@ -63,4 +63,4 @@ I built an interactive Tableau dashboard that visualizes real-time Toronto Polic
 
 ![Image](https://github.com/user-attachments/assets/ef4f2e6f-c13f-4c13-ab86-687de2ad14bb)
 
-![Image](https://github.com/user-attachments/assets/28cc4372-1620-4d24-8f42-fec79150e8a9)
+![Image](https://github.com/user-attachments/assets/1b9cab08-bfb5-4de7-87e0-b3adf2a4e60d)
