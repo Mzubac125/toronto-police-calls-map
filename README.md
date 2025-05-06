@@ -61,6 +61,6 @@ airflow scheduler
 ### Tableau Visualization
 I built an interactive Tableau dashboard that visualizes real-time Toronto Police Service calls. The dashboard includes a dynamic, auto-updating map of Toronto—refreshed hourly via Tableau Bridge with live Snowflake data. Users can click on a division to filter incidents and view detailed call information.
 
-![Image](https://github.com/user-attachments/assets/ef4f2e6f-c13f-4c13-ab86-687de2ad14bb)
+![Image](https://github.com/user-attachments/assets/ad53b857-91fc-44d8-9d25-66e49b0a2a75)
 
 ![Image](https://github.com/user-attachments/assets/1b9cab08-bfb5-4de7-87e0-b3adf2a4e60d)
