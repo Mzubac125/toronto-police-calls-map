@@ -59,5 +59,8 @@ airflow scheduler
 3. Manually trigger the DAG to run the pipeline
 
 ### Tableau Visualization
-I developed an interactive Tableau dashboard that visualizes Toronto Police Service calls in real-time. The dashboard features a dynamic map of Toronto that automatically updates every hour through Tableau Bridge, connecting directly to our Snowflake data warehouse. Users can interact with the visualization by filtering incidents by division, event type, and time period, while the map displays incident locations using street and intersection data. The dashboard includes multiple views: a main map showing current incidents, a time series analysis of incident frequency, and a division-level breakdown of activity. This real-time visualization provides valuable insights into TPS call patterns and helps identify trends across different areas of the city.
+I built an interactive Tableau dashboard that visualizes real-time Toronto Police Service calls. The dashboard includes a dynamic, auto-updating map of Toronto—refreshed hourly via Tableau Bridge with live Snowflake data. Users can click on a division to filter incidents and view detailed call information.
 
+![Image](https://github.com/user-attachments/assets/ef4f2e6f-c13f-4c13-ab86-687de2ad14bb)
+
+![Image](https://github.com/user-attachments/assets/28cc4372-1620-4d24-8f42-fec79150e8a9)
