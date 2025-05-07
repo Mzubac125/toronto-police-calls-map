@@ -65,7 +65,7 @@ I built an interactive Tableau dashboard that visualizes real-time Toronto Polic
 
 To enable spatial analysis in Tableau, I downloaded division boundary shapefiles from the [Toronto Police Data Portal](https://data.torontopolice.on.ca/datasets/police-divisions-1/explore)
 
-[Link to Dashboard](https://public.tableau.com/views/TPSCallsMap/TPSCallsMap?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Link to Dashboard](https://public.tableau.com/shared/JRCKGFQMT?:display_count=n&:origin=viz_share_link)
 
 ![Image](https://github.com/user-attachments/assets/ad53b857-91fc-44d8-9d25-66e49b0a2a75)
 
