@@ -1,7 +1,7 @@
 # Police Calls GTA Analytics Engineering Project
 
 ## Overview
-This project creates an automated pipeline using Apache Airflow to collect, transform, and store Toronto Police Service (TPS) call data, which is then visualized in Tableau. The pipeline automates the extraction, transformation, and loading (ETL) of police call data into a data warehouse, allowing for near real-time analysis and visualization.
+This project creates an automated pipeline using Apache Airflow to collect, transform, and store Toronto Police Service call data, enabling near real-time analysis and visualization in Tableau.
 
 Video Demonstration Link: https://youtu.be/KgLyFTzxMts
 
