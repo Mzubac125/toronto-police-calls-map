@@ -3,6 +3,8 @@
 ## Overview
 This project creates an automated pipeline to collect, transform, and store Toronto Police Service (TPS) call data, which can then be visualized in Tableau.
 
+Video Demonstration Link: https://youtu.be/KgLyFTzxMts
+
 ## Data Flow
 
 1. **Data Collection**: Scrapes TPS calls from gtaupdates.com
