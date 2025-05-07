@@ -29,7 +29,7 @@ Video Demonstration Link: https://youtu.be/KgLyFTzxMts
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Mzubac125/real-time-police-calls-gta.git
+git clone https://github.com/Mzubac125/toronto-police-calls-map.git
 cd tpscalls
 ```
 
