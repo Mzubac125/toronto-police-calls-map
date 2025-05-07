@@ -1,4 +1,4 @@
-# Real Time Police Calls GTA
+# Police Calls GTA Analytics Engineering Project
 
 ## Overview
 This project creates an automated pipeline to collect, transform, and store Toronto Police Service (TPS) call data, which can then be visualized in Tableau.
