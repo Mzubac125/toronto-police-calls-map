@@ -206,23 +206,13 @@ def load_data_to_snowflake(local_file_path):
 		logger.error(f"Error loading data to Snowflake: {str(e)}")
 		raise
 
-# Add a function to log the run context
-def log_run_context(**context):
-    execution_date = context['execution_date']
-    run_id = context['run_id']
-    logger.info(f"Starting DAG run with execution_date: {execution_date}, run_id: {run_id}")
 
-# Add a function to check if this is a manual trigger
-def is_manual_trigger(context):
-    return context.get('dag_run', {}).get('external_trigger', False)
-
-# Modify the tasks to include the manual trigger check
 get_tps_calls_task = PythonOperator(
     task_id='get_tps_calls',
     python_callable=get_tps_calls,
     dag=dag,
     provide_context=True,
-    trigger_rule='all_done',  # This ensures the task runs regardless of upstream state
+    trigger_rule='all_done', 
 )
 
 load_data_to_snowflake_task = PythonOperator(
