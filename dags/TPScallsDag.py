@@ -212,7 +212,6 @@ get_tps_calls_task = PythonOperator(
     python_callable=get_tps_calls,
     dag=dag,
     provide_context=True,
-    trigger_rule='all_done', 
 )
 
 load_data_to_snowflake_task = PythonOperator(
@@ -221,7 +220,6 @@ load_data_to_snowflake_task = PythonOperator(
     op_kwargs={'local_file_path': os.path.join(LOCAL_PATH, 'tpscalls.csv')},
     dag=dag,
     provide_context=True,
-    trigger_rule='all_done',
 )
 
 # Set task dependencies
